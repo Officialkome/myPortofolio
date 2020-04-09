@@ -1,0 +1,109 @@
+/* body{
+    /* background-color: black; 
+} */
+.container{
+    box-shadow: black;
+}
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0.05);
+    color: black;
+    border: 1px solid #b0b0b0;
+}
+.display-5{
+    letter-spacing: 5px;
+}
+.lead{
+    letter-spacing: 5px;
+}
+.stack{
+    color: teal;
+}
+.jumbotron hr{
+    border: 2px solid black;
+}
+
+.jumbotron .nav .nav-item a{
+    color: teal;
+    font-size: 20px;
+}
+.jumbotron .nav .nav-item a:hover{
+    color: violet;
+}
+
+.jumbotron div{
+    text-align: center;
+    /* color: black; */
+}
+.jumbotron div img{
+    border-radius: 50%;
+    width: 200px;
+}
+.experience-block .card{
+    background-color: transparent;
+    color: black;
+}
+.experience-block .card-body hr{
+   border: 2px solid teal;
+}
+.experience-block .card-list{
+    background-color: whitesmoke;
+    color: black;
+    /* border: 2px solid orange; */
+    font-size: 14px;
+}
+.card-body{
+    text-align: center;
+}
+.card-body .left-align{
+    text-align: center;
+}
+.card-body .left-align a{
+    text-decoration: none;
+    color: teal;
+}
+.card-body .left-align li{
+    font-size: 20px;
+}
+.card-body .left-align a:hover{
+    color: violet;
+}
+.role-text{
+    font-size: 20px;
+}
+.education-block{
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.education-block .card-list{
+    /* background-color: black; */
+    color: black;
+    /* border: 2px solid orange; */
+}
+.education-block .card-body hr{
+    border: 2px solid black;
+ }
+.card-list{
+    list-style: none;
+}
+
+.hire-me-block{
+    margin-top: 20px;
+}
+.hire-me-block a{
+    display: inline-block;
+    background-color: rgb(2, 10, 53);
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer{
+    margin-top: 5px;
+    background-color: teal;
+}
+footer a{
+    color: whitesmoke;
+}
+footer a:hover{
+    color: violet;
+}

@@ -1,0 +1,77 @@
+body{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.container{
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    /* border: 2px solid red; */
+    max-width: 100%;
+    width: 900px;
+    top: 70px;
+    padding: 20px;
+}
+
+.side-column{
+    position: relative;
+    background-color: teal;
+    width: 50%;
+    margin: 10px;
+  
+}
+
+.contact-block{
+    padding: 20px;
+    color: whitesmoke;
+    margin-top: 70px;
+}
+
+.nav-block{
+    margin: 20px 0px;
+    margin-right: -33px;
+}
+.nav{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nav a{
+    color: teal;
+}
+
+.nav a:hover{
+    background-color: whitesmoke;
+    color: violet;
+}
+.text{
+    font-size: 25px;
+}
+.form-column{
+    background-color: whitesmoke;
+    position: relative;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    padding: 30px;
+}
+
+.resume-link{
+    color: teal;
+}
+.resume-link:hover{
+    color: violet;
+    text-decoration: none;
+}
+.form-group{
+    text-align: left;
+}
+.btn{
+    background-color: teal;
+    color: whitesmoke;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    color: teal;
+}
