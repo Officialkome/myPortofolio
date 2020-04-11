@@ -1,7 +1,8 @@
-/* body{
-    /* background-color: black; 
-} */
-.container{
+body{
+  margin: 0;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+.container-fluid{
     box-shadow: black;
 }
 .jumbotron{
@@ -10,26 +11,35 @@
     border: 1px solid #b0b0b0;
 }
 .display-5{
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 }
 .lead{
     letter-spacing: 5px;
 }
 .stack{
-    color: teal;
+    color: lightblue;
 }
 .jumbotron hr{
     border: 2px solid black;
 }
 
-.jumbotron .nav .nav-item a{
-    color: teal;
-    font-size: 20px;
-}
-.jumbotron .nav .nav-item a:hover{
-    color: violet;
+.nav-item:hover{
+    list-style-type: none;
+    background-color: lightblue;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: black;
+}
+
+.navbar-dark .navbar-brand{
+    font-size: 1.5rem;
+}
 .jumbotron div{
     text-align: center;
     /* color: black; */
@@ -41,9 +51,10 @@
 .experience-block .card{
     background-color: transparent;
     color: black;
+    padding: 20px;
 }
 .experience-block .card-body hr{
-   border: 2px solid teal;
+   border: 2px solid lightblue;
 }
 .experience-block .card-list{
     background-color: whitesmoke;
@@ -98,12 +109,10 @@
     font-size: 20px;
 }
 footer{
-    margin-top: 5px;
-    background-color: teal;
+    padding: 20px;
+    background-color: #343a40;
 }
-footer a{
-    color: whitesmoke;
-}
-footer a:hover{
-    color: violet;
+
+.copyright{
+    text-align: center;
 }

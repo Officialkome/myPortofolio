@@ -1,29 +1,15 @@
 body{
-    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0;
 }
-.container{
-    background-color: transparent;
-    display: flex;
-    position: relative;
-    /* border: 2px solid red; */
-    max-width: 100%;
-    width: 900px;
-    top: 70px;
-    padding: 20px;
-}
-
 .side-column{
-    position: relative;
-    background-color: teal;
-    width: 50%;
-    margin: 10px;
+    margin-top: 20px;
+    color: black;
   
 }
 
 .contact-block{
     padding: 20px;
-    color: whitesmoke;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .nav-block{
@@ -36,42 +22,51 @@ body{
     flex-wrap: nowrap;
 }
 
-.nav a{
+/* .nav a{
     color: teal;
 }
 
 .nav a:hover{
     background-color: whitesmoke;
     color: violet;
-}
+} */
 .text{
     font-size: 25px;
 }
 .form-column{
     background-color: whitesmoke;
-    position: relative;
-    width: 50%;
-    margin: 10px;
-    text-align: center;
-    padding: 30px;
+    margin-bottom: 20px;
+    padding: 40px;
 }
 
 .resume-link{
-    color: teal;
+    color: lightblue;
 }
 .resume-link:hover{
-    color: violet;
+    color: black;
     text-decoration: none;
 }
 .form-group{
     text-align: left;
 }
 .btn{
-    background-color: teal;
-    color: whitesmoke;
+    background-color: lightblue;
+    color: black;
 }
 .btn:hover{
     background-color: whitesmoke;
     border: 1px solid black;
-    color: teal;
+    color: lightblue;
 }
+
+/* footer{
+    padding: 20px;
+    /* margin: 0; *
+    background-color: #343a40;
+}
+.copyright{
+    text-align: center;
+}
+.copyright p{
+    margin: 0;
+} */
